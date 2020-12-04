@@ -4,7 +4,7 @@
         <link rel="stylesheet" href="css/styles.css" />
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Welcome to Kokoa Talk</title>
+        <title>Welcome to Kokoa Clone</title>
     </head>
     <body>
         <div class="status-bar">
@@ -30,9 +30,13 @@
             </p>
         </header>
 
-        <form id="login-form">
-            <input type="text" placeholder="Email or phone number" />
-            <input type="password" placeholder="password" />
+        <form action="friends.html" method="GET" id="login-form">
+            <input
+                id="username"
+                type="text"
+                placeholder="Email or phone number"
+            />
+            <input id="password" type="password" placeholder="password" />
             <input type="submit" value="Log In" />
             <a href="#">Find Kokoa Account or Password</a>
         </form>
