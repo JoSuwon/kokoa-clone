@@ -51,3 +51,20 @@
     animation: hideSplashScreen 0.3s ease-in-out forwards;
     animation-delay: 2s;
 }
+
+.friends-screen__friends {
+    margin-top: 25px;
+    border-top: var(--main-border);
+    padding-top: 20px;
+}
+
+.friends-screen__friends-header {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.5);
+}
+.friends-screen__friends .user-component {
+    margin-bottom: 15px;
+}
